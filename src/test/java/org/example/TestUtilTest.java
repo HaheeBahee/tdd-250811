@@ -32,6 +32,7 @@ public class TestUtilTest {
 
     }
 
+    //System.out을 ByteArrayOutputStream으로 바꿔치기.
     @Test
     @DisplayName("TestUtil.setOutToByteArray()")
     void t2() throws IOException {
